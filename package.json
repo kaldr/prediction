@@ -1,0 +1,58 @@
+{
+  "name": "splendidshow",
+  "version": "1.0.0",
+  "description": "iflying splendid 3d display project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.iflying.com:kaldr/SplendidShow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "moment": "^2.21.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "browserify": "^16.1.1",
+    "chalk": "^2.3.2",
+    "coffeeify": "^3.0.1",
+    "coffeescript": "^1.12.7",
+    "del": "^3.0.0",
+    "event-stream": "^3.3.4",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-browserify-globs": "^0.1.2",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-coffee": "^3.0.2",
+    "gulp-coffeeify": "^0.1.8",
+    "gulp-concat": "^2.6.1",
+    "gulp-dom": "^0.9.17",
+    "gulp-exit": "0.0.2",
+    "gulp-ignore": "^2.0.2",
+    "gulp-inject": "^4.3.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-serve": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.0",
+    "jeet": "^6.1.2",
+    "minifyify": "^7.3.5",
+    "nib": "^1.1.2",
+    "stylus-type-utils": "0.0.3",
+    "tmp": "0.0.33",
+    "uglifyify": "^4.0.5",
+    "vinyl-source-stream": "^2.0.0",
+    "yargs": "^11.0.0"
+  }
+}
