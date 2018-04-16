@@ -25,6 +25,7 @@ source=require 'vinyl-source-stream'
 glob=require 'glob'
 rename=require 'gulp-rename'
 coffeeify=require 'coffeeify'
+babelify=require 'babelify'
 
 paths =
     styles: 'src/**/*.styl'
@@ -41,7 +42,7 @@ paths =
     # js:['src/animations/renderers/*.js']
     # coffeecache:['www/coffeecache/**/*.js','www/coffeecache/*.js']
 
-appUrl = 'splendidlocal.iflying.com'
+appUrl = 'www.qiaceng.com'
 appUrl=argv.url if argv.url
 
 currentTitle=""
