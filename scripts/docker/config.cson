@@ -1,0 +1,12 @@
+dev:
+    network:
+        name:'docker'
+        ip:'0.0.0.0'
+prod:
+    network:
+        name:'docker'
+        ip:'0.0.0.0'
+test:
+    network:
+        name:'docker'
+        ip:'0.0.0.0'
