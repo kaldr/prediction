@@ -78,11 +78,12 @@ class FileTask
         
 
 
-    watchAndCompileToOneFile: (glob, despath) =>
+    watchAndCompileToOneFile: (glob, despath=false) =>
 
-    compileToOneFile: (glob, despath, minify = false) =>
 
-    compileFile: (filepath, despath, minify = false) =>
+    compileToOneFile: (glob, despath=false, minify = false) =>
+
+    compileFile: (filepath, despath=false, minify = false) =>
 
     ###*
      * 生成文件路径
