@@ -77,13 +77,18 @@ class FileTask
         @watcher.unwatch path.path
         
 
-
     watchAndCompileToOneFile: (glob, despath=false) =>
 
 
     compileToOneFile: (glob, despath=false, minify = false) =>
 
     compileFile: (filepath, despath=false, minify = false) =>
+        
+
+    getFilename:(filepath)=>
+        filename=""
+        strs=filepath.split '/'
+        _.last strs
 
     ###*
      * 生成文件路径
